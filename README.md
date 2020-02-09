@@ -5,7 +5,7 @@ Open Package Manager Console in Visual Studio and run:
 - `Add-Migration <NAME>`
 - `Update-Database` or use `Update-Database -script` to generate script and execute in DB
 
-Add manually `DropTable("dbo.Accounts");` to Up() method to drop the table.
+Example: Add manually `DropTable("dbo.Accounts");` to Up() method to drop the table.
 
 ```` cs
 namespace EF.Migrations
